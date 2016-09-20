@@ -6,3 +6,75 @@ $(document).ready(function() {
 loadweather();
 });
 </script>
+
+<!-- Snippet of Bootstrap v2 below, your includes may vary based on BS version -->
+
+<div class="hr-divider m-t-md m-b">
+  <p class="hr-divider-content hr-divider-heading">Live&nbsp;</span><span id='date'></span></p>
+</div>
+
+<div class="row statcards">
+
+  <div class="col-sm-6 col-lg-3 m-b">
+    <div class="statcard statcard-success">
+      <div class="p-a">
+        <span class="statcard-desc">Temp</span>
+        <h2 class="statcard-number">
+        <span id='temp'></span>
+        </h2>
+        <hr class="statcard-hr m-b-0">
+		<h3 class="statcard-number">
+        <span id='textw'>&nbsp;</span>        
+        </h3>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="col-sm-6 col-lg-3 m-b">
+    <div class="statcard statcard-info">
+      <div class="p-a">
+        <span class="statcard-desc">Wind</span>
+        <h2 class="statcard-number">
+        <span id='wind'></span>        
+        </h2>
+        <hr class="statcard-hr m-b-0">
+        <h3 class="statcard-number">
+        <span id='dir'></span>        
+        </h3>
+      </div>
+    </div>
+  </div>
+
+<div class="col-sm-6 col-lg-3 m-b">
+    <div class="statcard statcard-danger">
+      <div class="p-a">
+        <span class="statcard-desc">Gust</span>
+        <h2 class="statcard-number">
+        <span id='gust'></span>
+        </h2>
+        <hr class="statcard-hr m-b-0">
+		<h3 class="statcard-number">
+        <span id=''>&nbsp;</span>        
+        </h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-lg-3 m-b">
+    <div class="statcard statcard-warning">
+      <div class="p-a">
+        <span class="statcard-desc">Rain today</span>
+        <h2 class="statcard-number">
+        <span id='rain'></span>
+        </h2>
+        <hr class="statcard-hr m-b-0">
+		<h3 class="statcard-number">
+        <span id=''>&nbsp;</span>        
+        </h3>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- end live row -->
+
